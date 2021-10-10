@@ -163,8 +163,6 @@ Crie uma `VIEW` chamada `estatisticas_musicais` que exiba três colunas:
 
 Sua `VIEW` deve retornar a seguinte informação ao ser consultada:
 
-![Estatísticas musicais](./images/estatisticas_musicais.png)
-
 O que será verificado:
 
 - Será validado se existe uma `VIEW` chamada `estatisticas_musicais` que exibe os dados corretos nas colunas **cancoes**, **artistas** e **albuns**".
@@ -182,8 +180,6 @@ Crie uma `VIEW` chamada `historico_reproducao_usuarios`. Essa `VIEW` deverá ter
 Os resultados devem estar ordenados por nome da pessoa usuária em ordem alfabética e em caso de empate no nome os resultados devem ser ordenados pelo nome da canção em ordem alfabética.
 
 Sua `VIEW` deve retornar a seguinte informação, ao ser consultada:
-
-![Histórico de reprodução das pessoas usuárias](./images/HistoricoReproducaoUsuarios.png)
 
 O que será verificado:
 
@@ -205,8 +201,6 @@ Seu resultado deve estar ordenado em ordem decrescente, baseando-se na quantidad
 
 Sua `VIEW` deve retornar a seguinte informação, ao ser consultada:
 
-![Top 3 artistas](./images/top_3_artistas.png)
-
 O que será verificado:
 
 - Será validado se existe uma `VIEW` chamada `top_3_artistas` que exibe os dados corretos nas colunas **artista** e **seguidores**".
@@ -226,9 +220,6 @@ Estamos fazendo um estudo das músicas mais tocadas e precisamos saber quais sã
 Seu resultado deve estar ordenado em ordem decrescente, baseando-se no número de reproduções. Em caso de empate, ordene os resultados pelo nome da canção em ordem alfabética. Queremos apenas o top 2 de músicas mais tocadas.
 
 Sua `VIEW` deve retornar a seguinte informação, ao ser consultada:
-
-![Top 2 hits do momento](./images/top_2_hits_do_momento.png)
-
 
 O que será verificado:
 
@@ -254,8 +245,6 @@ Para cada um desses dados, por se tratarem de valores monetários, deve-se arred
 
 Sua `VIEW` deve retornar a seguinte informação, ao ser consultada:
 
-![Faturamento atual](./images/faturamento_atual.png)
-
 O que será verificado:
 
 - Será validado se existe uma `VIEW` chamada `faturamento_atual`, que exibe os dados corretos nas colunas **faturamento_minimo**, **faturamento_maximo**, **faturamento_medio** e **faturamento_total**.
@@ -275,8 +264,6 @@ Mostre uma relação de todos os álbuns produzidos por cada pessoa artista, com
 Seus resultados devem estar ordenados de forma decrescente, baseando-se no número de pessoas seguidoras. Em caso de empate no número de pessoas, ordene os resultados pelo nome da pessoa artista em ordem alfabética e caso há artistas com o mesmo nome, ordene os resultados pelo nome do álbum alfabeticamente.
 
 Sua `VIEW` deve retornar a seguinte informação, ao ser consultada:
-
-![PerfilArtistas](./images/perfil_artistas.png)
 
 O que será verificado:
 
@@ -312,8 +299,6 @@ Confirme a execução correta da procedure, chamando-a e passando o nome igual a
 
 `CALL albuns_do_artista('Walter Phoenix');`
 
-![Álbuns da pessoa artista](./images/AlbunsDoArtista.png)
-
 O que será verificado:
 
 - Será validado se a procedure `albuns_do_artista` retorna a coluna **artista** contendo o nome da pessoa artista e a coluna **album** contendo o nome do album.
@@ -327,9 +312,6 @@ O que será verificado:
 Crie uma function chamada de `quantidade_musicas_no_historico` que exibe a quantidade de músicas que estão presentes atualmente no histórico de reprodução de uma pessoa usuária. Ao receber o código identificador da pessoa, exiba a quantidade de canções em seu histórico de reprodução.
 
 Confirme a execução correta da function, chamando-a e passando o id para a pessoa usuária com o nome igual a `"Bill"`. Sua function deve retornar o mesmo que o resultado abaixo:
-
-![Quantidade de músicas no histórico](./images/quantidade_musicas_no_historico.png)
-
 
 O que será verificado:
 
@@ -349,44 +331,10 @@ Crie uma `VIEW` chamada `cancoes_premium` que exiba o nome e a quantidade de vez
 
 Sua `VIEW` deve retornar a seguinte informação, ao ser consultada:
 
-![Canções premium](./images/cancoes_premium.png)
-
 O que será verificado:
 
 - Será validado se existe uma `VIEW` chamada `cancoes_premium`, que exibe os dados corretos nas colunas **nome** e **reproducoes**.
 
 - Será validado se as colunas estão ordenadas de forma correta.
-
----
-
-## Depois de terminar o desenvolvimento
-
-Para **"entregar"** seu projeto, siga os passos a seguir:
-
-* Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas
-  * No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**
-  * No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**
-  * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-00`
-
-Se ainda houver alguma dúvida sobre como entregar seu projeto, [aqui tem um video explicativo](https://vimeo.com/362189205).
-
----
-
-### Revisando um pull request
-
-À medida que você e as outras pessoas que estudam na Trybe forem entregando os projetos, vocês receberão um alerta via Slack para também fazer a revisão dos Pull Requests dos seus colegas. Fiquem atentos às mensagens do "Pull Reminders" no Slack!
-
-Use o material que você já viu sobre [Code Review](https://course.betrybe.com/real-life-engineer/code-review/) para te ajudar a revisar os projetos que chegaram para você.
-
----
-
-# Avisos Finais
-
-
-Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o formulário. Leva menos de 3 minutos!
-
-Link: [FORMULÁRIO DE AVALIAÇÃO DE PROJETO](https://be-trybe.typeform.com/to/ZTeR4IbH#cohort_name=Turma%2012)
-
-O avaliador automático não necessariamente avalia seu projeto na ordem em que os requisitos aparecem no readme. Isso acontece para deixar o processo de avaliação mais rápido. Então, nãose assuste se isso acontecer, ok?
 
 ---
