@@ -3,8 +3,8 @@
 # SUMÁRIO
 
 - [Habilidades](#habilidades)
-- [Habilidades](#O-que-deverá-ser-desenvolvido)
-- [Habilidades](#Problema-a-ser-resolvido)
+- [O que deverá ser desenvolvido](#O-que-deverá-ser-desenvolvido)
+- [Problema a ser resolvido](#Problema-a-ser-resolvido)
 - [Requisitos do projeto](#requisitos-do-projeto)
   - [Desafio 1](#desafio-1)
   - [Desafio 2](#desafio-2)
