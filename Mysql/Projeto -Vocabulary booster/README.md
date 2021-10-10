@@ -31,9 +31,6 @@
   - [18 - Faça um relatório que mostra o histórico de cargos das pessoas empregadas, mostrando as datas de início e de saída, assim como os anos que ela ficou nesse cargo](#18---faça-um-relatório-que-mostra-o-histórico-de-cargos-das-pessoas-empregadas-mostrando-as-datas-de-início-e-de-saída-assim-como-os-anos-que-ela-ficou-nesse-cargo)
   - [19 - Crie uma função chamada exibir_quantidade_pessoas_contratadas_por_mes_e_ano no banco de dados hr que, dados o mês e ano como parâmetros nessa ordem, retorna a quantidade de pessoas funcionárias que foram contratadas nesse mês e ano](#19---crie-uma-função-chamada-exibir_quantidade_pessoas_contratadas_por_mes_e_ano-no-banco-de-dados-hr-que-dados-o-mês-e-ano-como-parâmetros-nessa-ordem-retorna-a-quantidade-de-pessoas-funcionárias-que-foram-contratadas-nesse-mês-e-ano)
   - [20 - Toda pessoa funcionária no banco hr possui um histórico completo de cargos.](#20---toda-pessoa-funcionária-no-banco-hr-possui-um-histórico-completo-de-cargos-logo-crie-uma-procedure-chamada-exibir_historico_completo_por_funcionario-que-dado-o-e-mail-de-uma-pessoa-funcionária-retorna-todos-os-cargos-em-seu-histórico)
-- [Depois de terminar o desenvolvimento (opcional)](#depois-de-terminar-o-desenvolvimento-opcional)
-- [Revisando um pull request](#revisando-um-pull-request)
-- [Avisos Finais](#avisos-finais)
 
 ---
 
